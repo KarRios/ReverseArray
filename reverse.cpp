@@ -1,6 +1,7 @@
 #include<iostream>
 #include<array>
 using namespace std;
+void reverseArray(int arr[], int length);
 
 int main(){
 int array[100]; //creates an array with 100 elements max.
