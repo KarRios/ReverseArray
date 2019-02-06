@@ -30,7 +30,7 @@ cout << endl;
 void reverseArray(int arr[], int length){
   for(int j = 0; j < (length/2); ++j){
     int temp = arr[j];
-    arr[j] = arr[length-j];
+    arr[j] = arr[length-j] -1;
     arr[length-j] = temp;
   }
 }
